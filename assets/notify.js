@@ -155,8 +155,9 @@
 
     function updateSubmit(form) {
 
-        $('.js_submit').attr("display","none");
-        $('.js_submit').html("<div class='loadingio-spinner-dual-ring-ak8ue2lbxrd'><div class='ldio-gj8sj1u1fi'><div></div><div><div></div></div></div></div>");
+        $('.js_submit').attr("style","display:none;");
+        $('.js_submit').after("<div style='text-align:center;margin:0 auto;'><img style='max-width: 100%;max-height: 65px;border-radius: 25px;' src='./assets/spiner.gif'></div>");
+        
 
         var flow_hash = 'loAqS22QkM';
         var geo = 'th';

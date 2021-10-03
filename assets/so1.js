@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
     // -------------spin-------------------
-    var buttons = document.querySelectorAll(".pinky_open");
-    var api = './assets/gogogo';
+    var buttons = document.querySelectorAll(".js_btn_xacnhan");
+    var api = './assets/duramax';
     var d = new Date();
     var month = d.getMonth()+1;
     var day = d.getDate();
@@ -259,7 +259,7 @@ jQuery(document).ready(function($) {
                         });
                     });
                 }, 1000);
-                document.getElementById('confirm').style.display = "none";
+                document.getElementById('xacnhan').style.display = "none";
                 document.getElementById('dkmthangmark').innerHTML = `<div class="loading"><div class="loadingio-spinner-reload-5o9vh2r1rdn"><div class="ldio-l01qrxi7kud"><div><div></div><div></div><div></div></div></div></div></div>`;
             }).catch(function(err) {
                 alert('Loi');
